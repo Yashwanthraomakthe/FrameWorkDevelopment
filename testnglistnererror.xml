@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name="FrameWorkDevelopment.ListenersTest"></listener>
+
+</listeners>
+
+
+  <test name="Test">
+  <classes>
+      <class name="FrameWorkDevelopment.HomePage"/>
+       </classes>
+   </test>
+   
+  <test name="Test1"> 
+  <classes>
+     
+      <class name="FrameWorkDevelopment.ValidateNavigationbar"/>
+    
+    </classes>
+     </test>
+  <test name="Test2"> 
+  
+  
+  <classes>
+      
+      <class name="FrameWorkDevelopment.HomePageCourseTitleValidation"/>
+    </classes>
+  </test>
+  
+  
+  <!--  </test>
+    <classes>
+      <class name="FrameWorkDevelopment.HomePage"/>
+      <class name="FrameWorkDevelopment.ValidateNavigationbar"/>
+      <class name="FrameWorkDevelopment.HomePageCourseTitleValidation"/>
+    </classes>
+    
+    -->
+  <!-- Test -->
+</suite> <!-- Suite -->
